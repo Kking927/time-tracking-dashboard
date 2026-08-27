@@ -29,7 +29,7 @@
   --fs-subtitle: 0.9375rem;
   --fs-body: 1.125rem;
 
-  --fs-profile-name: clamp(1.5rem, 1.236rem + 1.127vw, 2.25rem);
+  --fs-profile-name: clamp(1.625rem, 1.2rem + 1.5vw, 2.5rem);
 
   --fs-stat-number: clamp(2rem, 1.868rem + 0.563vw, 2.375rem);
 
