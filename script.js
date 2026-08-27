@@ -92,8 +92,6 @@ async function init() {
 
       const timeframe = button.dataset.timeframe;
 
-      console.log("Button clicked:", timeframe);
-
       timeframeButtons.forEach((btn) => {
         btn.classList.remove("is-active");
       });
