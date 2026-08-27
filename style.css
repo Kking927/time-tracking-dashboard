@@ -128,8 +128,7 @@ body {
 .profile-card__header {
   background-color: var(--purple-600);
   border-radius: var(--br-card);
-  padding:
-    clamp(2rem, 1.5rem + 1.5vw, 2.5rem);
+  padding: clamp(2rem, 1.5rem + 1.5vw, 2.5rem);
   display: flex;
   align-items: center;
   gap: clamp(1rem, 0.75rem + 1vw, 1.25rem);
