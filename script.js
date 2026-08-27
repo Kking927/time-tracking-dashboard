@@ -86,7 +86,6 @@ async function init() {
     return;
   }
 
-
   timeframeButtons.forEach((button) => {
 
     button.addEventListener("click", () => {
@@ -95,20 +94,16 @@ async function init() {
 
       console.log("Button clicked:", timeframe);
 
-
-      timeframeButtons.forEach((button) => {
-        button.classList.remove("is-active");
+      timeframeButtons.forEach((btn) => {
+        btn.classList.remove("is-active");
       });
 
-
       button.classList.add("is-active");
-
 
       updateCards(data, timeframe);
     });
 
   });
-
 
   // Start with Weekly
   updateCards(data, "weekly");
