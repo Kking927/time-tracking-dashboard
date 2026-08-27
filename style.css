@@ -181,7 +181,7 @@ body {
 .profile-card__nav {
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem 2rem;
+  padding: clamp(1.25rem, 0.5rem + 3vw, 1.5rem) clamp(1.5rem, 0.5rem + 6vw, 2rem);
   background-color: var(--navy-900);
   transition:
     filter 0.2s ease;
@@ -271,7 +271,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 0.5rem;
+  margin-block-end: 0.5rem;
 }
 
 .activity-card__title {
