@@ -282,7 +282,7 @@ body {
   border: none;
   background: none;
   cursor: pointer;
-  padding: 0.25rem;
+  padding: clamp(0.125rem, 0.0625rem + 0.25vw, 0.25rem);
 }
 
 .activity-card__options-icon {
@@ -408,7 +408,7 @@ body {
   }
 
   .activity-card__time-current {
-    margin-bottom: 0.75rem;
+    margin-block-end: clamp(0.5rem, 0.25rem + 1vw, 0.75rem);
   }
 }
 
