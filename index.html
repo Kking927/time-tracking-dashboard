@@ -1,1 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Tracking Dashboard</title>
+  </head>
 
+  <body>
+    <main class="dashboard">
+
+      <!-- Profile -->
+      <section class="profile-card">
+        <div class="profile-card__header">
+          <img
+            src="https://github.com/Kking927/time-tracking-dashboard/blob/main/images/image-jeremy.png?raw=true"
+            alt="Jeremy Robson"
+            class="profile-card__avatar"
+            width="234"
+            height="234"
+          />
+
+          <div class="profile-card__titles">
+            <span class="profile-card__subtitle">Report for</span>
+            <h1 class="profile-card__title">Jeremy Robson</h1>
+          </div>
+        </div>
+
+        <nav class="profile-card__nav">
+          <button
+            type="button"
+            class="profile-card__nav-btn"
+            data-timeframe="daily"
+          >
+            Daily
+          </button>
+
+          <button
+            type="button"
+            class="profile-card__nav-btn is-active"
+            data-timeframe="weekly"
+          >
+            Weekly
+          </button>
+
+          <button
+            type="button"
+            class="profile-card__nav-btn"
+            data-timeframe="monthly"
+          >
+            Monthly
+          </button>
+        </nav>
+      </section>
+
+
+      <!-- Work -->
+      <article
+        class="activity-card activity-card--work"
+        data-title="Work"
+      >
+        <div class="activity-card__content">
+          <div class="activity-card__header">
+            <h2 class="activity-card__title">Work</h2>
+
+            <button
+              type="button"
+              class="activity-card__options-btn"
+              aria-label="Work options"
+            >
+              <img
+                src="https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-ellipsis.svg"
+                alt=""
+                class="activity-card__options-icon"
+              />
+            </button>
+          </div>
+
+          <div class="activity-card__body">
+            <p class="activity-card__time-current">32hrs</p>
+            <p class="activity-card__time-previous">
+              Last Week - 36hrs
+            </p>
+          </div>
+        </div>
+      </article>
+
+
+      <!-- Play -->
+      <article
+        class="activity-card activity-card--play"
+        data-title="Play"
+      >
+        <div class="activity-card__content">
+          <div class="activity-card__header">
+            <h2 class="activity-card__title">Play</h2>
+
+            <button
+              type="button"
+              class="activity-card__options-btn"
+              aria-label="Play options"
+            >
+              <img
+                src="https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-ellipsis.svg"
+                alt=""
+                class="activity-card__options-icon"
+              />
+            </button>
+          </div>
+
+          <div class="activity-card__body">
+            <p class="activity-card__time-current">10hrs</p>
+            <p class="activity-card__time-previous">
+              Last Week - 8hrs
+            </p>
+          </div>
+        </div>
+      </article>
+
+
+      <!-- Study -->
+      <article
+        class="activity-card activity-card--study"
+        data-title="Study"
+      >
+        <div class="activity-card__content">
+          <div class="activity-card__header">
+            <h2 class="activity-card__title">Study</h2>
+
+            <button
+              type="button"
+              class="activity-card__options-btn"
+              aria-label="Study options"
+            >
+              <img
+                src="https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-ellipsis.svg"
+                alt=""
+                class="activity-card__options-icon"
+              />
+            </button>
+          </div>
+
+          <div class="activity-card__body">
+            <p class="activity-card__time-current">4hrs</p>
+            <p class="activity-card__time-previous">
+              Last Week - 7hrs
+            </p>
+          </div>
+        </div>
+      </article>
+
+
+      <!-- Exercise -->
+      <article
+        class="activity-card activity-card--exercise"
+        data-title="Exercise"
+      >
+        <div class="activity-card__content">
+          <div class="activity-card__header">
+            <h2 class="activity-card__title">Exercise</h2>
+
+            <button
+              type="button"
+              class="activity-card__options-btn"
+              aria-label="Exercise options"
+            >
+              <img
+                src="https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-ellipsis.svg"
+                alt=""
+                class="activity-card__options-icon"
+              />
+            </button>
+          </div>
+
+          <div class="activity-card__body">
+            <p class="activity-card__time-current">4hrs</p>
+            <p class="activity-card__time-previous">
+              Last Week - 5hrs
+            </p>
+          </div>
+        </div>
+      </article>
+
+
+      <!-- Social -->
+      <article
+        class="activity-card activity-card--social"
+        data-title="Social"
+      >
+        <div class="activity-card__content">
+          <div class="activity-card__header">
+            <h2 class="activity-card__title">Social</h2>
+
+            <button
+              type="button"
+              class="activity-card__options-btn"
+              aria-label="Social options"
+            >
+              <img
+                src="https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-ellipsis.svg"
+                alt=""
+                class="activity-card__options-icon"
+              />
+            </button>
+          </div>
+
+          <div class="activity-card__body">
+            <p class="activity-card__time-current">5hrs</p>
+            <p class="activity-card__time-previous">
+              Last Week - 10hrs
+            </p>
+          </div>
+        </div>
+      </article>
+
+
+      <!-- Self Care -->
+      <article
+        class="activity-card activity-card--self-care"
+        data-title="Self Care"
+      >
+        <div class="activity-card__content">
+          <div class="activity-card__header">
+            <h2 class="activity-card__title">Self Care</h2>
+
+            <button
+              type="button"
+              class="activity-card__options-btn"
+              aria-label="Self Care options"
+            >
+              <img
+                src="https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-ellipsis.svg"
+                alt=""
+                class="activity-card__options-icon"
+              />
+            </button>
+          </div>
+
+          <div class="activity-card__body">
+            <p class="activity-card__time-current">2hrs</p>
+            <p class="activity-card__time-previous">
+              Last Week - 2hrs
+            </p>
+          </div>
+        </div>
+      </article>
+
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
