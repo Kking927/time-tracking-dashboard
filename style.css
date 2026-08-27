@@ -164,7 +164,7 @@ body {
   display: block;
   font-size: var(--fs-subtitle);
   color: var(--navy-200);
-  margin-bottom: 0.25rem;
+  margin-block-end: clamp(0.25rem, 0.5vw, 0.5rem);
 }
 
 .profile-card__title {
