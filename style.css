@@ -31,7 +31,7 @@
 
   --fs-profile-name: clamp(1.625rem, 1.2rem + 1.5vw, 2.5rem);
 
-  --fs-stat-number: clamp(2rem, 1.868rem + 0.563vw, 2.375rem);
+  --fs-stat-number: clamp(1.875rem, 1.2rem + 1.8vw, 3rem);
 
   /* Border Radius */
   --br-card: 0.9375rem; /* 15px */
@@ -131,7 +131,6 @@ body {
   padding: clamp(2rem, 1.5rem + 1.5vw, 2.5rem);
   display: flex;
   align-items: center;
-  gap: clamp(1rem, 0.75rem + 1vw, 1.25rem);
 }
 
 .profile-card__avatar {
@@ -326,37 +325,37 @@ body {
 .activity-card--work::before {
   background-color: var(--orange-300);
   background-image:
-    url('images/icon-work.svg');
+    url('https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-work.svg');
 }
 
 .activity-card--play::before {
   background-color: var(--blue-300);
   background-image:
-    url('images/icon-play.svg');
+    url('https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-play.svg');
 }
 
 .activity-card--study::before {
   background-color: var(--pink-400);
   background-image:
-    url('images/icon-study.svg');
+    url('https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-study.svg');
 }
 
 .activity-card--exercise::before {
   background-color: var(--green-400);
   background-image:
-    url('images/icon-exercise.svg');
+    url('https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-exercise.svg');
 }
 
 .activity-card--social::before {
   background-color: var(--purple-700);
   background-image:
-    url('images/icon-social.svg');
+    url('https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-social.svg');
 }
 
 .activity-card--self-care::before {
   background-color: var(--yellow-300);
   background-image:
-    url('images/icon-self-care.svg');
+    url('https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-self-care.svg');
 }
 
 /* =========================
@@ -397,18 +396,24 @@ body {
   .profile-card__nav {
     flex-direction: column;
     align-items: flex-start;
-    gap: 1rem;
+    gap: 1.25rem;
     padding: 2rem;
   }
 
   /* Activity cards */
+
+   .activity-card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
 
   .activity-card__body {
     display: block;
   }
 
   .activity-card__time-current {
-    margin-block-end: clamp(0.5rem, 0.25rem + 1vw, 0.75rem);
+    margin-block-end: clamp(0.625rem, 0.375rem + 1vw, 1.25rem);
   }
 }
 
