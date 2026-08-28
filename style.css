@@ -304,32 +304,32 @@ body {
 
 .activity-card--work::before {
   background-color: var(--orange-300);
-  background-image: url("https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-work.svg");
+  background-image: url("images/icon-work.svg");
 }
 
 .activity-card--play::before {
   background-color: var(--blue-300);
-  background-image: url("https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-play.svg");
+  background-image: url("images/icon-play.svg");
 }
 
 .activity-card--study::before {
   background-color: var(--pink-400);
-  background-image: url("https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-study.svg");
+  background-image: url("images/icon-study.svg");
 }
 
 .activity-card--exercise::before {
   background-color: var(--green-400);
-  background-image: url("https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-exercise.svg");
+  background-image: url("images/icon-exercise.svg");
 }
 
 .activity-card--social::before {
   background-color: var(--purple-700);
-  background-image: url("https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-social.svg");
+  background-image: url("images/icon-social.svg");
 }
 
 .activity-card--self-care::before {
   background-color: var(--yellow-300);
-  background-image: url("https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-self-care.svg");
+  background-image: url("images/icon-self-care.svg");
 }
 
 /* =========================
@@ -369,8 +369,8 @@ body {
   .profile-card__nav {
     flex-direction: column;
     align-items: flex-start;
-    gap: 1.25rem;
-    padding: 2rem;
+    gap: clamp(0.75rem, 0.5rem + 1.25vw, 1.25rem);
+    padding: clamp(1rem, 0.5rem + 2vw, 2rem);
   }
 
   /* Activity cards */
