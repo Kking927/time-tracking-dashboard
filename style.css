@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 :root {
   /* Colors */
@@ -134,20 +134,11 @@ body {
 }
 
 .profile-card__avatar {
-  width: clamp(
-    2.25rem,
-    1.72rem + 2.25vw,
-    3.75rem
-  );
-  height: clamp(
-    2.25rem,
-    1.72rem + 2.25vw,
-    3.75rem
-  );
+  width: clamp(2.25rem, 1.72rem + 2.25vw, 3.75rem);
+  height: clamp(2.25rem, 1.72rem + 2.25vw, 3.75rem);
   border: 2px solid var(--white);
   border-radius: var(--br-round);
-  transition:
-    transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .profile-card__avatar:hover {
@@ -179,10 +170,10 @@ body {
 .profile-card__nav {
   display: flex;
   justify-content: space-between;
-  padding: clamp(1.25rem, 0.5rem + 3vw, 1.5rem) clamp(1.5rem, 0.5rem + 6vw, 2rem);
+  padding: clamp(1.25rem, 0.5rem + 3vw, 1.5rem)
+    clamp(1.5rem, 0.5rem + 6vw, 2rem);
   background-color: var(--navy-900);
-  transition:
-    filter 0.2s ease;
+  transition: filter 0.2s ease;
 }
 
 .profile-card__nav:hover {
@@ -194,8 +185,7 @@ body {
   border: none;
   color: var(--purple-500);
   cursor: pointer;
-  transition:
-    opacity 0.2s ease;
+  transition: opacity 0.2s ease;
 }
 
 .profile-card__nav-btn:active {
@@ -217,12 +207,7 @@ body {
   flex-direction: column;
   overflow: hidden;
   border-radius: var(--br-card);
-  padding-block-start:
-    clamp(
-      2.25rem,
-      1.8rem + 1.8vw,
-      3rem
-    );
+  padding-block-start: clamp(2.25rem, 1.8rem + 1.8vw, 3rem);
   background-color: var(--navy-900);
 }
 
@@ -242,12 +227,7 @@ body {
   position: relative;
   z-index: 1;
   flex: 1;
-  padding:
-    clamp(
-      1.5rem,
-      1.36rem + 0.6vw,
-      1.75rem
-    );
+  padding: clamp(1.5rem, 1.36rem + 0.6vw, 1.75rem);
   background-color: var(--navy-900);
   border-radius: var(--br-card);
   cursor: pointer;
@@ -324,38 +304,32 @@ body {
 
 .activity-card--work::before {
   background-color: var(--orange-300);
-  background-image:
-    url('https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-work.svg');
+  background-image: url("https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-work.svg");
 }
 
 .activity-card--play::before {
   background-color: var(--blue-300);
-  background-image:
-    url('https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-play.svg');
+  background-image: url("https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-play.svg");
 }
 
 .activity-card--study::before {
   background-color: var(--pink-400);
-  background-image:
-    url('https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-study.svg');
+  background-image: url("https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-study.svg");
 }
 
 .activity-card--exercise::before {
   background-color: var(--green-400);
-  background-image:
-    url('https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-exercise.svg');
+  background-image: url("https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-exercise.svg");
 }
 
 .activity-card--social::before {
   background-color: var(--purple-700);
-  background-image:
-    url('https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-social.svg');
+  background-image: url("https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-social.svg");
 }
 
 .activity-card--self-care::before {
   background-color: var(--yellow-300);
-  background-image:
-    url('https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-self-care.svg');
+  background-image: url("https://raw.githubusercontent.com/Kking927/time-tracking-dashboard/d4621bf92d0e5645a2018d74dd13eff1311ad7c7/images/icon-self-care.svg");
 }
 
 /* =========================
@@ -363,7 +337,6 @@ body {
 ========================= */
 
 @media (min-width: 64rem) {
-
   body {
     align-items: center;
   }
@@ -383,8 +356,8 @@ body {
   .profile-card__header {
     flex-direction: column;
     align-items: flex-start;
-    padding:
-      2.5rem 2rem 5rem;
+    padding: clamp(1.5rem, 1rem + 2vw, 2.5rem) clamp(1rem, 0.5rem + 1.5vw, 2rem)
+      clamp(3rem, 2rem + 4vw, 5rem);
   }
 
   .profile-card__avatar {
@@ -402,7 +375,7 @@ body {
 
   /* Activity cards */
 
-   .activity-card__content {
+  .activity-card__content {
     display: flex;
     flex-direction: column;
     gap: clamp(1rem, 0.5rem + 2vw, 1.5rem);
