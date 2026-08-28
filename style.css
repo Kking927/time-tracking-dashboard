@@ -31,7 +31,7 @@
 
   --fs-profile-name: clamp(1.625rem, 1.2rem + 1.5vw, 2.5rem);
 
-  --fs-stat-number: clamp(1.875rem, 1.2rem + 1.8vw, 3rem);
+  --fs-stat-number: clamp(2rem, 1.2rem + 2.4vw, 4rem);
 
   /* Border Radius */
   --br-card: 0.9375rem; /* 15px */
